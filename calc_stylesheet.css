@@ -15,7 +15,7 @@ h1 {
     padding-bottom: 2px;
     margin-bottom: 2px;
 }
-
+ /*calculator's heading*/
 #calc-heading {
     border: 0;
     height: 4px;
@@ -27,6 +27,7 @@ h1 {
     margin-bottom: 20px;
 }
 
+    /*this is how the calculator's general body looks*/
 .calculator {
     background-color: #ADD8E6;
     padding: 20px;
@@ -48,7 +49,7 @@ h1 {
     border-radius: 10px;
     background-color: #e6e6e6;
 }
-
+    /*this is how the buttons look*/
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -66,7 +67,7 @@ h1 {
     transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-/* Button hover and active states */
+    /*button hover and active states*/
 .button:hover {
     background-color: #0288d1;
     transform: scale(1.5);
@@ -74,18 +75,24 @@ h1 {
 .button:active {
     transform: scale(0.95);
 }
+
+    /*clear and backspace button functions*/	
 .button.clear, button.backspace {
     background-color: #15d2eb;
 }
 .button.clear:hover, button.backspace:hover {
     background-color: #07e5f9;
 }
+
+    /*equal button functions*/
 .button.equal {
     background-color: #0dcbdced;
 }
 .button.equal:hover {
     background-color: #0c14f1ed;
 }
+
+    /*operator buttons functions*/
 .button.operator {
     background-color: #62a4cd;
 }
