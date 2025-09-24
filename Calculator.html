@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <viewport content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="calc_stylesheet.css">
+    <title>Calculator</title>
+</head>
+<body> 
+<!--Calculator Heading-->
+<h1>🧮 Calculator 🧮</h1>
+    <br>
+    <hr id="calc-heading">
+    <br>
+<!--Calculator Display-->
+    <div class="calculator">
+        <input type="text" id="display" class="display" disabled>
+
+
+<!--Buttons-->
+    <div class="buttons">
+    <!--Row 1-->
+            <button class="button clear" onclick="clearDisplay()">C</button>
+            <button class="button backspace" onclick="backspace()">⌫</button>
+            <button class="button operator" onclick="percentage()">%</button>
+            <button class="button operator" onclick="appendOperation('/')">÷</button>
+<!--Row 2-->
+            <button class="button number" onclick="appendNumber('7')">7</button>
+            <button class="button number" onclick="appendNumber('8')">8</button>
+            <button class="button number" onclick="appendNumber('9')">9</button>
+            <button class="button operator" onclick="appendOperation('*')">×</button>
+<!--Row 3-->
+            <button class="button number" onclick="appendNumber('4')">4</button>
+            <button class="button number" onclick="appendNumber('5')">5</button>
+            <button class="button number" onclick="appendNumber('6')">6</button>
+            <button class="button operator" onclick="appendOperation('-')">-</button>
+<!--Row 4-->            
+            <button class="button number" onclick="appendNumber('1')">1</button>
+            <button class="button number" onclick="appendNumber('2')">2</button>
+            <button class="button number" onclick="appendNumber('3')">3</button>
+            <button class="button operator" onclick="appendOperation('+')">+</button>
+<!--Row 5-->
+            <button class="button number" onclick="appendNumber('0')">0</button>
+            <button class="button number" onclick="appendNumber('.')">.</button>
+            <button class="button bracket" onclick="wrapBrackets()">( )</button>
+            <button class="button equal" onclick="calculateResult()">=</button>
+
+    </div>
+    </div>
+
+</body>
+</html>
