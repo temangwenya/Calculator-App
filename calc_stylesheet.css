@@ -36,8 +36,8 @@ h1 {
     width: 400px;
     height: 530px;
 }
-
-.display{
+  /*this is how the calculator's input area looks*/
+.input_area{
     width: 93%;
     height: 60px;
     font-size: 24px;
