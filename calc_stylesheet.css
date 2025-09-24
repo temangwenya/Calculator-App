@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #deebed;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #a3043c;
+    font-size: 36px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+
+#calc-heading {
+    border: 0;
+    height: 4px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #e61f1f, #ccc);
+    width: 50%;
+    padding-top: 0;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.calculator {
+    background-color: #ADD8E6;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(5, 120, 178, 0.87);
+    width: 400px;
+    height: 530px;
+}
+
+.display{
+    width: 93%;
+    height: 60px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 3px solid #9EB9D4;
+    border-radius: 10px;
+    background-color: #e6e6e6;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.button {
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ecf1f2;
+    box-shadow: 0 4px #42c4efa9;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Button hover and active states */
+.button:hover {
+    background-color: #0288d1;
+    transform: scale(1.5);
+}
+.button:active {
+    transform: scale(0.95);
+}
+.button.clear, button.backspace {
+    background-color: #15d2eb;
+}
+.button.clear:hover, button.backspace:hover {
+    background-color: #07e5f9;
+}
+.button.equal {
+    background-color: #0dcbdced;
+}
+.button.equal:hover {
+    background-color: #0c14f1ed;
+}
+.button.operator {
+    background-color: #62a4cd;
+}
+.button.operator:hover {
+    background-color: #88cbe8;
+}
+
