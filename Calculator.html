@@ -7,19 +7,22 @@
     <title>Calculator</title>
 </head>
 <body> 
-<!--Calculator Heading-->
+<!--Calculator Heading and its decoration-->
 <h1>🧮 Calculator 🧮</h1>
     <br>
-    <hr id="calc-heading">
+<!--calculator's heading underline-->
+    <hr id="heading_underline">
     <br>
 <!--Calculator Display-->
+<!--This is how the calculator's body is displayed-->
     <div class="calculator">
-        <input type="text" id="display" class="display" disabled>
+        <!--This is how the calculator's input area looks-->
+        <input type="text" id="input_area" class="input_area" disabled>
 
 
 <!--Buttons-->
     <div class="buttons">
-    <!--Row 1-->
+<!--Row 1-->
             <button class="button clear" onclick="clearDisplay()">C</button>
             <button class="button backspace" onclick="backspace()">⌫</button>
             <button class="button operator" onclick="percentage()">%</button>
