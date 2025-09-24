@@ -39,9 +39,7 @@ ________________________________________________________________________________
 
 ____________________________________________________________________________________________________________________
 ## Preview
-
-*(You can add a screenshot or GIF of your calculator here once you have one — just upload it to your repo and reference it like `![Calculator Screenshot](screenshot.png)`)*
-
+<img width="1284" height="1468" alt="Screenshot 2025-09-24 085303" src="https://github.com/user-attachments/assets/bb270b0f-6068-4b21-a85c-c737ba8b2fdb" />
 
 
 ____________________________________________________________________________________________________________________
